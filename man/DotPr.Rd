@@ -3,12 +3,15 @@
 \title{
 Returns a dot product between two vectors
 }
+\description{
+The function returns a scalar comprising a real number given the vector v and w, such that the dot product, v.w, is the returned scalar
+}
 \usage{
-DotPr(x,y)
+DotPr(v,w)
 }
 \arguments{
-  \item{x, y}{
-The input vectors x and y whose lengths need to be equal
+  \item{v, w}{
+The input vectors v and w whose lengths need to be equal
 }
 }
 
